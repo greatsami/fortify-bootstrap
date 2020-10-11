@@ -1,0 +1,32 @@
+{
+    "name": "greatsami/fortify-bootstrap",
+    "description": "Bootstrap template for Laravel 8 Fortify",
+    "type": "library",
+    "require": {
+        "illuminate/support": "^8.0",
+        "laravel/fortify": "^1.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Greatsami\\FortifyBootstrap\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Greatsami\\FortifyBootstrap\\FortifyBootstrapServiceProvider"
+            ]
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sami Mansour",
+            "email": "samiman.net@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
