@@ -27,7 +27,6 @@ class InstallCommand extends Command
      * @var array
      */
     protected $views = [
-
         'auth/verify-email.blade.php' => 'auth/verify-email.blade.php',
         'auth/two-factor-challenge.blade.php' => 'auth/two-factor-challenge.blade.php',
         'auth/reset-password.blade.php' => 'auth/reset-password.blade.php',

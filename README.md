@@ -6,24 +6,13 @@ Authentication scaffolding with Bootstrap 4.
 
 ### Installation
 
+You have to install [Laravel Fortify](https://github.com/laravel/fortity), and complete all setup without add blades calling in App\Providers\FortifyServiceProvider.php.
+ 
+
 To get started, install package using composer:
 
 ```bash
 composer require greatsami/fortify-bootstrap
-```
-
-Add FortifyServiceProvider to config/app.php, and do not forgot to publish fortify files.
-
-```php
-'providers' => [
-    ...
-    App\Providers\FortifyServiceProvider::class,
-    ...
-]
-```
-
-```bash
-php artisan vendor:publish --provider="Laravel\Fortify\FortifyServiceProvider"
 ```
 
 Next, Run install artisan command to publish bootstrap scraffolding to application
