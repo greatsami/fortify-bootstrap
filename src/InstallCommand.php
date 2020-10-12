@@ -5,14 +5,14 @@ namespace Greatsami\FortifyBootstrap;
 
 use Illuminate\Console\Command;
 
-class InstallCommand
+class InstallCommand extends Command
 {
     /**
      * The name and signature of the console command.
      *
      * @var string
      */
-    protected $signature = 'fortify:bootstrap {--force : Overwrite existing views by default}';
+    protected $signature = 'fortify:bootstrap {--force}';
 
     /**
      * The console command description.
