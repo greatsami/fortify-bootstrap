@@ -36,8 +36,8 @@
                             @endforeach
                         </div>
 
-                            <a href="javescript:void(0);" class="btn btn-primary" onclick="document.getElementById('regenerate_two_factor_auth').submit();">{{ __('Regenerate Recovery Codes') }}</a>
-                            <a href="javescript:void(0);" class="btn btn-danger" onclick="document.getElementById('delete_two_factor_auth').submit();">{{ __('Disable Two-Factor') }}</a>
+                        <a href="javascript:void(0);" class="btn btn-primary" onclick="document.getElementById('regenerate_two_factor_auth').submit();">{{ __('Regenerate Recovery Codes') }}</a>
+                        <a href="javascript:void(0);" class="btn btn-danger" onclick="document.getElementById('delete_two_factor_auth').submit();">{{ __('Disable Two-Factor') }}</a>
 
 
 
