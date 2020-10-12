@@ -90,6 +90,7 @@ class InstallCommand extends Command
         $directories = [
             $this->getViewPath('layouts'),
             $this->getViewPath('auth'),
+            $this->getViewPath('profile'),
             resource_path('sass'),
             resource_path('js'),
         ];
