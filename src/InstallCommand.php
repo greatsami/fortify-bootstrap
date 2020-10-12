@@ -37,6 +37,9 @@ class InstallCommand extends Command
         'layouts/app.blade.php' => 'layouts/app.blade.php',
         'home.blade.php' => 'home.blade.php',
         'profile.blade.php' => 'profile.blade.php',
+        'profile/update-profile-information-form.blade.php' => 'profile/update-profile-information-form.blade.php',
+        'profile/update-password-form.blade.php' => 'profile/update-password-form.blade.php',
+        'profile/two-factor-authentication-form.blade.php' => 'profile/two-factor-authentication-form.blade.php',
     ];
 
     /**
