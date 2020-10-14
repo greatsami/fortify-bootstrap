@@ -4,6 +4,7 @@
 namespace Greatsami\FortifyBootstrap;
 
 use Illuminate\Console\Command;
+use Illuminate\Support\Facades\Artisan;
 
 class InstallCommand extends Command
 {
@@ -69,6 +70,9 @@ class InstallCommand extends Command
      */
     public function handle()
     {
+
+        Artisan::call('session:table');
+
         $this->ensureDirectoriesExist();
         $this->exportViews();
 
