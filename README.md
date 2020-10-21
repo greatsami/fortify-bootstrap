@@ -6,7 +6,7 @@ Authentication scaffolding with Bootstrap 4.
 
 ### Installation
 
-You have to install [Laravel Fortify](https://github.com/laravel/fortity), and complete all setup without add blades calling in App\Providers\FortifyServiceProvider.php.
+You have to install [Laravel Fortify](https://github.com/laravel/fortify), and complete all setup without add blades calling in App\Providers\FortifyServiceProvider.php.
 
 After installation completed please add session migration using:
 (to activate TwoFactorAuthentication method)
@@ -34,7 +34,7 @@ This command will update package.json with Bootstrap dependencies, update resour
 ## Build With
 
 [Laravel](https://github.com/laravel/laravel)  
-[Laravel Fortify](https://github.com/laravel/fortity)  
+[Laravel Fortify](https://github.com/laravel/fortify)  
 [Bootstrap](http://getbootstrap.com)
 
 ## Useful Links
